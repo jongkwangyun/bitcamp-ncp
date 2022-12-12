@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>ex02</title>
+</head>
+
+<body>
+  <h1>연산자 - 산술연산자</h1>
+  <script>
+    "use strict"
+
+    console.log(100 + 200);
+    console.log(100 - 200);
+    console.log(100 * 200);
+    console.log(100 / 200);
+    console.log(100 % 200);
+    console.log(2 ** 4);
+    console.log("-----------------");
+
+    // 후위 연산자: ++, --
+    let a = 100;
+    a++;  // a = a + 1;
+    console.log(a);
+
+    a = 100;
+    a--;  // a = a - 1;
+    console.log(a);
+
+    a = 3.14;
+    a++;
+    console.log(a.toFixed(2));
+
+    console.log("-----------------");
+
+    // 전위 연산자: ++, --
+    a = 100;
+    ++a;
+    console.log(a)
+
+    a = 100;
+    ++a;
+    console.log(a);
+    console.log("-----------------");
+
+    let x = 100;
+    let y = 100;
+
+    console.log(x++);
+    // console.log(x);
+    // x = x + 1;
+
+    console.log(++y);
+    // y = y + 1;
+    // console.log(y);
+    console.log("-----------------");
+
+    a = 100;
+    x = a++ + a++ + a++;
+    // x = 100 + 101 + 102;
+    console.log(a, x);  // 103 303
+    console.log("-----------------");
+
+    a = 100;
+    x = ++a + ++a + ++a;
+    console.log(a, x);
+    console.log("-----------------");
+
+    x = 100;
+    x = ++x;
+    console.log(x);
+
+    y = 100;
+    y = y++;
+    console.log(y);
+    console.log("-----------------");
+
+    // ++, -- 연산자는 *, /, % 보다 우선한다.
+    a = 3;
+    x = a++ + a++ * a++;
+    console.log(x)
+
+
+  </script>
+</body>
+
+</html>

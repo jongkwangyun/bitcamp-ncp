@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>ex02</title>
+</head>
+
+<body>
+  <h1>변수 - const 변수와 객체</h1>
+  <script>
+    "use strict"
+
+    const obj = new Object();
+    // obj = new Object();  // 예외 발생!
+
+    // 그러나 상수가 가리키는 객체를 바꾸는 것은 상관 없다.
+    // 왜? obj라는 상수에 저장된 주소가 바뀌는 것은 아니기 때문이다.
+    obj['name'] = "홍길동";
+    obj.age = 20;
+    obj.working = false;
+
+    console.log(obj);
+
+
+  </script>
+</body>
+
+</html>
