@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <title>ex06</title>
     <style>
-        body,
+        body {
+            border: 1px solid blue;
+            padding: 30px;
+        }
+
         div {
             border: 1px solid red;
             padding: 30px;
@@ -18,7 +22,7 @@
 </head>
 
 <body>
-    <h1>이벤트 - bubble 대신 capture와 target 단계에서 호출되는 리스너 등록하기</h1>
+    <h1>이벤트 - 이벤트 단계</h1>
     <div id="d1">d1
         <div id="d2">d2
             <button id="btn1">버튼1</button>
@@ -28,38 +32,25 @@
     <script>
         "use strict"
 
-        // 세번째 파라미터를 true로 설정하면,
-        // capture 단계와 target 단계에서만 호출된다.
-
         document.getElementById("btn1").addEventListener("click", function (e) {
             console.log("버튼1...");
-        }, true);
+        }, false);
 
-        // target, bubble  단계에서 호출되도록 설정한다.
         document.getElementById("btn2").addEventListener("click", function (e) {
             console.log("버튼2...");
-        });
+        }, false);
 
-        // capture, target 단계에서 호출되도록 설정한다.
         document.getElementById("d2").addEventListener("click", function (e) {
             console.log("d2...");
-        }, true);
+        }, false);
 
-        // capture, target 단계에서 호출되도록 설정한다.
         document.getElementById("d1").addEventListener("click", function (e) {
             console.log("d1...");
-        }, true);
+        }, false);
 
-        // capture, target  단계에서 호출되도록 설정한다.
         document.body.addEventListener("click", function (e) {
             console.log("body...");
-        }, true);
-
-
-// 정리!
-// => addEventListener(이벤트, 리스너, false) : target, bubble 단계일 때 리스너가 호출된다.
-//    - 세 번째 파라미터가 없으면 기본이 false이다.
-// => addEventListener(이벤트, 리스너, true) : capture, target 단계일 때 리스너가 호출된다.
+        }, false);
     </script>
 </body>
 
