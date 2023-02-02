@@ -12,9 +12,9 @@ class B3 {
     void test() {
       int v1 = 1000;
 
-      System.out.printf("v1 = %d\n", v1); // 로컬 변수 
-      System.out.printf("this.v1 = %d\n", this.v1); // 인스턴스 변수 
-      System.out.printf("B3.this.v1 = %d\n", B3.this.v1); // 바깥 객체의 인스턴스 변수 
+      System.out.printf("v1 = %d\n", v1); // 로컬 변수
+      System.out.printf("this.v1 = %d\n", this.v1); // 인스턴스 변수
+      System.out.printf("B3.this.v1 = %d\n", B3.this.v1); // 바깥 객체의 인스턴스 변수
     }
   }
 }

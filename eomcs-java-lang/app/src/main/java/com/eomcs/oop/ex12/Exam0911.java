@@ -13,7 +13,7 @@ public class Exam0911 {
     names.add("김구");
     names.add("안중근");
 
-    for (String name : names) {
+    for (String name : names) {  // names 자리에 배열 또는 iterable 구현체가 올 수 있다.
       System.out.println(name);
     }
   }

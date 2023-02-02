@@ -34,7 +34,7 @@ public class Exam0710_05 {
     for (File file : files) {
       if (file.isDirectory() && !file.isHidden()) {
         System.out.printf("%s/\n", file.getName());
-        printList(file);
+        printList(file);  // 하위 디렉토리 출력 재귀함수 호출
       } else if (file.isFile()) {
         System.out.printf("%s\n", file.getName());
       }

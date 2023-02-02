@@ -16,8 +16,5 @@ public class Exam0430 {
     } else {
       System.out.println("test.txt 파일을 생성할 수 없습니다.");
     }
-
-
   }
-
 }

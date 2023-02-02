@@ -22,9 +22,7 @@ public class Exam0520 {
               file.length(),
               file.getName());
     }
-
   }
-
 }
 
 

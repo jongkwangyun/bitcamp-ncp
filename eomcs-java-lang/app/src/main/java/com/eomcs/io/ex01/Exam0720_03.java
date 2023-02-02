@@ -16,7 +16,6 @@ public class Exam0720_03 {
   static void deleteFile(File dir) {
     dir.delete(); // 현재 파일이나 폴더를 지우기
   }
-
 }
 
 

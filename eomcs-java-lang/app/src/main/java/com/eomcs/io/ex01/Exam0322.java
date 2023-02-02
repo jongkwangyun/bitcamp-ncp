@@ -20,8 +20,5 @@ public class Exam0322 {
     } else {
       System.out.println("temp2/a/b 디렉토리를 생성할 수 없습니다.");
     }
-
-
   }
-
 }

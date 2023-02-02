@@ -28,8 +28,5 @@ public class Exam0431 {
     } else {
       System.out.println("파일을 생성할 수 없습니다.");
     }
-
-
   }
-
 }

@@ -9,7 +9,7 @@ class D {
   static void m1() {}
 
   static class X {
-    void test() {
+    static void test() {
       System.out.println("test()");
     }
   }

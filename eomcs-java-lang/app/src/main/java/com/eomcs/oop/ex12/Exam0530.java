@@ -1,7 +1,6 @@
 // 메서드 레퍼런스 - 스태틱 메서드 레퍼런스
 package com.eomcs.oop.ex12;
 
-
 public class Exam0530 {
 
   static class MyCalculator {
@@ -93,7 +92,7 @@ public class Exam0530 {
     //    Calculator5 c5 = new Calculator5() {
     //      @Override
     //      public Object compute(int a, int b) {
-    //        return MyCalculator.plus(a, b); // OK! 
+    //        return MyCalculator.plus(a, b); // OK!
     //        //이유? plus()가 리턴한 int 값이 오토박싱 되기 때문이다.
     //      }
     //    };

@@ -16,7 +16,6 @@ public class Exam0720_02 {
   static void deleteFile(File dir) {
 
   }
-
 }
 
 

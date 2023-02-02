@@ -1,7 +1,6 @@
 // 인터페이스와 추상 클래스 : 인터페이스 직접 구현
 package com.eomcs.oop.ex09.d;
 
-
 public class Exam0110 {
 
   interface ProtocolA {

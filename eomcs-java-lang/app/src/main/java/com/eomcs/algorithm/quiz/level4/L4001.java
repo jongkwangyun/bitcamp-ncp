@@ -2,10 +2,10 @@ package com.eomcs.algorithm.quiz.level4;
 // copyright by codefights.com
 // 한 줄에 버그가 있다. 고쳐라!
 /*
-Define partial sort of array as follows: first k elements 
-of the result should be exactly the same 
-as they will be in the sorted array and 
-the rest elements should go in the same order as they occur 
+Define partial sort of array as follows: first k elements
+of the result should be exactly the same
+as they will be in the sorted array and
+the rest elements should go in the same order as they occur
 in the original array.
 
 Apply a partial sort to a given array.

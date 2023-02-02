@@ -1,7 +1,6 @@
 // 인터페이스 다중 구현과 메서드 중복
 package com.eomcs.oop.ex09.c;
 
-
 public class Exam0220 {
 
   interface ProtocolA {

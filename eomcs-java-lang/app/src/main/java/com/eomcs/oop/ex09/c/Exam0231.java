@@ -1,7 +1,6 @@
 // 메서드의 시그너처가 다르다면 당연히 다중 구현 가능
 package com.eomcs.oop.ex09.c;
 
-
 public class Exam0231 {
 
   interface ProtocolA {

@@ -1,7 +1,6 @@
 // 인터페이스 다중 구현이 불가한 경우!
 package com.eomcs.oop.ex09.c;
 
-
 public class Exam0230 {
 
   interface ProtocolA {

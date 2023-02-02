@@ -39,4 +39,5 @@ public class Teacher extends Member {
   public void setWage(int wage) {
     this.wage = wage;
   }
+
 }

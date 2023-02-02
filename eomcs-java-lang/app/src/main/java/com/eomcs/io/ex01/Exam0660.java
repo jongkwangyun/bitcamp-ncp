@@ -5,7 +5,6 @@ import java.io.File;
 
 public class Exam0660 {
 
-
   public static void main(String[] args) throws Exception {
 
     File file = new File(".");
@@ -18,9 +17,7 @@ public class Exam0660 {
               f.length(),
               f.getName());
     }
-
   }
-
 }
 
 

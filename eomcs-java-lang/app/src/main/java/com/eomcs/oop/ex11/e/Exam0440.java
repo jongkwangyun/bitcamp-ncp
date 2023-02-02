@@ -38,6 +38,5 @@ public class Exam0440 {
         System.out.println("안녕!!!");
       }
     });
-
   }
 }

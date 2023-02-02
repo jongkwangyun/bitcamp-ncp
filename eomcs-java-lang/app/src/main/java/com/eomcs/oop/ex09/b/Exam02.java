@@ -1,7 +1,6 @@
 // 인터페이스 필드
 package com.eomcs.oop.ex09.b;
 
-
 // 인터페이스 필드 선언
 interface MyInterface2 {
   // 인터페이스 필드는 public static final 이다.

@@ -5,7 +5,6 @@ import java.io.File;
 
 public class Exam0650 {
 
-
   public static void main(String[] args) throws Exception {
 
     File dir = new File(".");
@@ -31,9 +30,7 @@ public class Exam0650 {
       System.out.printf("%s %12d %s\n", file.isDirectory() ? "d" : "-", file.length(),
           file.getName());
     }
-
   }
-
 }
 
 

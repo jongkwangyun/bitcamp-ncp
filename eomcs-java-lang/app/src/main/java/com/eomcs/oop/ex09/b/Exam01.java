@@ -53,16 +53,13 @@ class MyInterfaceImpl2 implements MyInterface {
   public void m2() {} // OK!
 
   @Override
-  public void m3() {
-  }
+  public void m3() {}
 
   @Override
-  public void m4() {
-  }
+  public void m4() {}
 
   @Override
-  public void m7() {
-  }
+  public void m7() {}
 }
 
 // 3) 인터페이스 사용

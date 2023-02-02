@@ -1,7 +1,6 @@
 // 메서드 레퍼런스 - 스태틱 메서드 레퍼런스
 package com.eomcs.oop.ex12;
 
-
 public class Exam0540 {
 
   static class MyCalculator {
@@ -106,7 +105,7 @@ public class Exam0540 {
     //      @Override
     //      public int compute(Integer a, Integer b) {
     //        return MyCalculator.plus(a, b); // OK!
-    //        // 이유? 오토언박싱 때문이다. 
+    //        // 이유? 오토언박싱 때문이다.
     //        // MyCalculator.plus(a.intValue(), b.intValue()) 코드로 변경된다.
     //      }
     //    };
@@ -129,7 +128,7 @@ public class Exam0540 {
     //      @Override
     //      public int compute(int a, int b, int c) {
     //        return MyCalculator.plus(a, b, c); // 컴파일 오류!
-    //        // compute()는 int 값 세 개를 받아서 plus()에 세 개 모두 전달한다. 
+    //        // compute()는 int 값 세 개를 받아서 plus()에 세 개 모두 전달한다.
     //        // 그러나 plus()는 int 파라미터가 두 개만 있다.
     //      }
     //    };

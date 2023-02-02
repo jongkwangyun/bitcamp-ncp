@@ -10,8 +10,6 @@ public class Exam0720_01 {
     // temp 디렉토리를 삭제하기
     File dir = new File("temp");
   }
-
-
 }
 
 
