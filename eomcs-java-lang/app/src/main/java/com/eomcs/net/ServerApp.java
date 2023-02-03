@@ -40,5 +40,4 @@ public class ServerApp {
     keyScan.close();
 
   }
-
 }

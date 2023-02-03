@@ -40,5 +40,4 @@ public class ClientApp2 {
 
     System.out.println("클라이언트 종료!");
   }
-
 }

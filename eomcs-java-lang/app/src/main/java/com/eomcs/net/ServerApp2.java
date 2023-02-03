@@ -43,5 +43,4 @@ public class ServerApp2 {
     System.out.println("서버 종료!");
 
   }
-
 }
