@@ -1,7 +1,6 @@
 // IoC 컨테이너 만들기 - 5) 클래스 이름으로 Class 객체를 만든다.
 package com.eomcs.ioc.ex05;
 
-import java.io.File;
 import java.util.List;
 
 // => 클래스 이름으로 해당 클래스를 로딩한 후 Class 객체를 가져온다.
@@ -15,9 +14,6 @@ public class Exam08 {
       System.out.println(clazz.getName());
     }
   }
-
-
-
 }
 
 

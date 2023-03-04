@@ -18,9 +18,6 @@ public class Exam04 {
       System.out.println(f.getCanonicalPath());
     }
   }
-
-
-
 }
 
 

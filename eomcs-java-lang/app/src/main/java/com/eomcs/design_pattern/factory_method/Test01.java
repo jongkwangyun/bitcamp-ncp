@@ -15,23 +15,22 @@ public class Test01 {
     c1.model = "티코";
     c1.cc = 890;
     c1.sunroof = false;
-    
+
     Car c2 = new Car();
     c2.model = "티코 골드";
     c2.cc = 890;
     c2.sunroof = true;
-    
+
     Car c3 = new Car();
     c3.model = "소나타";
     c3.cc = 1980;
     c3.sunroof = false;
-    
+
     Car c4 = new Car();
     c4.model = "소나타 골드";
     c4.cc = 1980;
     c4.sunroof = true;
   }
-
 }
 
 

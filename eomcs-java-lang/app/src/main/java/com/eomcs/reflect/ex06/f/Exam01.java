@@ -3,8 +3,8 @@ package com.eomcs.reflect.ex06.f;
 
 import java.util.HashMap;
 import java.util.List;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import com.eomcs.ioc.ex01.ApplicationContext;
 import com.eomcs.spring.ioc.SpringUtils;
 
 public class Exam01 {

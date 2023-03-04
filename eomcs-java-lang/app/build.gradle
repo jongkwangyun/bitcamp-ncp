@@ -92,7 +92,7 @@ dependencies {
   //implementation 'org.reflections:reflections:0.9.12'
 
   // Mybatis 퍼시스턴스 프레임워크
-  // implementation 'org.mybatis:mybatis:3.5.7'
+  implementation 'org.mybatis:mybatis:3.5.11'
 
   // Mybastis를 Spring과 연동할 때 사용할 라이브러리
   // implementation 'org.mybatis:mybatis-spring:2.0.6'

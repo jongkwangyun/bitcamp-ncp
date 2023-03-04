@@ -7,7 +7,6 @@ class Car2 {
   boolean sunroof;
 }
 
-
 // 인스턴스 생성과정이 복잡할 때 사용하는 설계 기법이다.
 // 복잡한 객체 생성 코드를 메서드에 캡슐화한다.
 // 메서드 호출을 통해 인스턴스를 리턴 받는다.
@@ -50,7 +49,6 @@ class Car2Factory {
   }
 }
 
-
 public class Test02 {
 
   public static void main(String[] args) {
@@ -66,10 +64,7 @@ public class Test02 {
     System.out.println(c3.model);
     System.out.println(c4.model);
     System.out.println(c5.model);
-
-
   }
-
 }
 
 

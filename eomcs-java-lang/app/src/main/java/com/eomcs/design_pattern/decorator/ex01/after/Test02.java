@@ -9,7 +9,5 @@ public class Test02 {
     B b = new B(a);
 
     b.f1("홍길동");
-
   }
-
 }

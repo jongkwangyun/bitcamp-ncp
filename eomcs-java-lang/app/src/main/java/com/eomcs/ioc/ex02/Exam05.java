@@ -4,7 +4,7 @@ package com.eomcs.ioc.ex02;
 import java.io.File;
 import java.util.List;
 
-// => ClassLoader로 자바 classpath를 검색하여 해당 패키지를 찾는다. 
+// => ClassLoader로 자바 classpath를 검색하여 해당 패키지를 찾는다.
 public class Exam05 {
 
   public static void main(String[] args) throws Exception {
@@ -16,7 +16,7 @@ public class Exam05 {
     // => step18/ex6를 자바 CLASSPATH 에 둔다.
     //         즉 jvm을 실행할 때 -classpath로 클래스 파일이 있는 경로를 지정하는데
     //         그 경로 안에 두는 것을 말한다.
-    // => classpath에 두면 ClassLoader를 이용하여 해당 폴더가 
+    // => classpath에 두면 ClassLoader를 이용하여 해당 폴더가
     //         실제 어느 디렉토리 밑에 있는지 쉽게 찾을 수 있다.
 
     // ClassLoader의 도움을 받지 않는다면,
@@ -30,9 +30,6 @@ public class Exam05 {
       System.out.println(f.getCanonicalPath());
     }
   }
-
-
-
 }
 
 

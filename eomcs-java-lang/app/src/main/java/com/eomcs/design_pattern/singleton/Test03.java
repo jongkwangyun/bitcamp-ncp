@@ -1,4 +1,4 @@
-// Singleton 연습 : 김밥 인스턴스를 한 개만 생성하도록  Singleton 패턴을 적용하라. 
+// Singleton 연습 : 김밥 인스턴스를 한 개만 생성하도록  Singleton 패턴을 적용하라.
 package com.eomcs.design_pattern.singleton;
 
 class Kimbap {

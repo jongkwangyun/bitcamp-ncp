@@ -4,7 +4,7 @@ package com.eomcs.ioc.ex03;
 import java.io.File;
 import java.util.List;
 
-// => FileFilter를 사용하여 .class 파일만 추출한다. 
+// => FileFilter를 사용하여 .class 파일만 추출한다.
 public class Exam06 {
 
   public static void main(String[] args) throws Exception {
@@ -14,9 +14,6 @@ public class Exam06 {
       System.out.println(f.getCanonicalPath());
     }
   }
-
-
-
 }
 
 

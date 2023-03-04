@@ -13,7 +13,5 @@ public class Test04 {
     C c = new C(a);
 
     c.f1("홍길동");
-
   }
-
 }

@@ -13,9 +13,6 @@ public class Exam09 {
       System.out.println(obj.getClass().getName());
     }
   }
-
-
-
 }
 
 

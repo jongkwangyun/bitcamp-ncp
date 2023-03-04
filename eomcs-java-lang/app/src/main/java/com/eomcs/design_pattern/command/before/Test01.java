@@ -7,12 +7,12 @@ public class Test01 {
   public static void main(String[] args) {
     Scanner keyboard = new Scanner(System.in);
     CommandHandler handler = new CommandHandler();
-    
+
     while (true) {
       System.out.print("명령> ");
       String input = keyboard.nextLine();
-      
-      
+
+
       if ("/board/add".equals(input)) {
         handler.addBoard();
       } else if ("/board/detail".equals(input)) {
@@ -42,7 +42,6 @@ public class Test01 {
     }
     keyboard.close();
   }
-
 }
 
 

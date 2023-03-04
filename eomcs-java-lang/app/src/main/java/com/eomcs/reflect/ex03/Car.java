@@ -27,6 +27,4 @@ public class Car {
   public void setCc(int cc) {
     this.cc = cc;
   }
-
-
 }
