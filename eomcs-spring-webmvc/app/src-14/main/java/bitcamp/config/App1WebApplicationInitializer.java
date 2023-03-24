@@ -59,7 +59,6 @@ extends AbstractAnnotationConfigDispatcherServletInitializer {
     //            2000000 // 업로드 되고 있는 파일을 메모리에 임시 임시 보관하는 크기
     //            ));
   }
-
 }
 
 

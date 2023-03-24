@@ -45,6 +45,4 @@ create table app_teacher(
 alter table app_teacher
   add constraint primary key (teacher_id),
   modify column teacher_id int not null auto_increment;
-  
-  
-  
+   

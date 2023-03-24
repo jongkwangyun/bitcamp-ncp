@@ -55,10 +55,3 @@ alter table app_teacher
 alter table app_teacher
   modify column degree int not null,
   modify column wage int not null;
-
-
-
-
-
-
-  

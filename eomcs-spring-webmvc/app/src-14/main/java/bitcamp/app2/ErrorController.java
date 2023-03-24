@@ -19,7 +19,6 @@ public class ErrorController {
     mv.setViewName("error2");
     return mv;
   }
-
 }
 
 

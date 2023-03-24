@@ -134,7 +134,6 @@ public class Controller01_2 {
     // 그런 후에 해당 URL의 JSP를 실행한다.
     return mv;
   }
-
 }
 
 
